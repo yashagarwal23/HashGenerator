@@ -1,0 +1,279 @@
+[
+  {
+    "KeyFormat": "_MigrationStartDateTimeUTC_",
+    "ArgDesc": []
+  },
+  {
+    "KeyFormat": "_MigrationEndDateTimeUTC_",
+    "ArgDesc": []
+  },
+  {
+    "KeyFormat": "_MigrationCurrentStatus_",
+    "ArgDesc": []
+  },
+  {
+    "KeyFormat": "_MigrationNoOfKeysMigrated_",
+    "ArgDesc": []
+  },
+  {
+    "KeyFormat": "_MigrationKeysMigrated_{0}_",
+    "ArgDesc": [
+      {
+        "Type": "num",
+        "Value": "1000000"
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_MigrationKeysMigratedChunksCount_",
+    "ArgDesc": []
+  },
+  {
+    "KeyFormat": "_MigrationCurrentPhase_",
+    "ArgDesc": []
+  },
+  {
+    "KeyFormat": "_MigrationStartSeqNum_",
+    "ArgDesc": []
+  },
+  {
+    "KeyFormat": "_MigrationEndSeqNum_",
+    "ArgDesc": []
+  },
+  {
+    "KeyFormat": "_MigrationLastAppliedSeqNum_",
+    "ArgDesc": []
+  },
+  {
+    "KeyFormat": "_{0}Phase_Iteration-{1}_StartDateTimeUTC_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      },
+      {
+        "Type": "num",
+        "Value": "1000000"
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_{0}Phase_Iteration-{1}_EndDateTimeUTC_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      },
+      {
+        "Type": "num",
+        "Value": "1000000"
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_{0}Phase_Iteration-{1}_CurrentStatus_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      },
+      {
+        "Type": "num",
+        "Value": "1000000"
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_{0}Phase_Iteration-{1}_StartSeqNum_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      },
+      {
+        "Type": "num",
+        "Value": "1000000"
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_{0}Phase_Iteration-{1}_EndSeqNum_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      },
+      {
+        "Type": "num",
+        "Value": "1000000"
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_{0}Phase_Iteration-{1}_LastAppliedSeqNum_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      },
+      {
+        "Type": "num",
+        "Value": "1000000"
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_{0}Phase_Iteration-{1}_NoOfKeysMigrated_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      },
+      {
+        "Type": "num",
+        "Value": "1000000"
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_{0}Phase_Iteration-{1}_WorkerCount_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      },
+      {
+        "Type": "num",
+        "Value": "1000000"
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_{0}Phase_IterationCount_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_{0}Phase_Iteration-{1}_Worker{2}_StartDateTimeUTC_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      },
+      {
+        "Type": "num",
+        "Value": "1000000"
+      },
+      {
+        "Type": "num",
+        "Value": "128"
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_{0}Phase_Iteration-{1}_Worker{2}_EndDateTimeUTC_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      },
+      {
+        "Type": "num",
+        "Value": "1000000"
+      },
+      {
+        "Type": "num",
+        "Value": "128"
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_{0}Phase_Iteration-{1}_Worker{2}_CurrentStatus_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      },
+      {
+        "Type": "num",
+        "Value": "1000000"
+      },
+      {
+        "Type": "num",
+        "Value": "128"
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_{0}Phase_Iteration-{1}_Worker{2}_StartSeqNum_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      },
+      {
+        "Type": "num",
+        "Value": "1000000"
+      },
+      {
+        "Type": "num",
+        "Value": "128"
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_{0}Phase_Iteration-{1}_Worker{2}_EndSeqNum_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      },
+      {
+        "Type": "num",
+        "Value": "1000000"
+      },
+      {
+        "Type": "num",
+        "Value": "128"
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_{0}Phase_Iteration-{1}_Worker{2}_LastAppliedSeqNum_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      },
+      {
+        "Type": "num",
+        "Value": "1000000"
+      },
+      {
+        "Type": "num",
+        "Value": "128"
+      }
+    ]
+  },
+  {
+    "KeyFormat": "_{0}Phase_Iteration-{1}_Worker{2}_NoOfKeysMigrated_",
+    "ArgDesc": [
+      {
+        "Type": "string",
+        "Value": [ "None", "Copy", "Catchup", "Downtime", "DataValidation", "Aborted" ]
+      },
+      {
+        "Type": "num",
+        "Value": "1000000"
+      },
+      {
+        "Type": "num",
+        "Value": "128"
+      }
+    ]
+  }
+]
